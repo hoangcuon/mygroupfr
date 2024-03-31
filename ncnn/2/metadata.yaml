@@ -1,0 +1,16 @@
+description: Ultralytics best model trained on /content/datasets/BB-FIRE-AND-SMOKE-DETECTION-1/data.yaml
+author: Ultralytics
+date: '2024-03-31T09:06:43.342838'
+version: 8.1.38
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 800
+- 800
+names:
+  0: Fire
+  1: Fire-
+  2: Smoke
